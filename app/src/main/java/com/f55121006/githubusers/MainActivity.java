@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         progressBar.setVisibility(View.VISIBLE);
         AsyncHttpClient client = new AsyncHttpClient();
         String url = "https://api.github.com/users";
-        client.addHeader("Authorization", "token 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");
+        client.addHeader("Authorization", "token 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");
         client.addHeader("User-Agent", "request");
 
         client.get(url, new AsyncHttpResponseHandler() {
